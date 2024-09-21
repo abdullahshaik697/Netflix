@@ -1,0 +1,191 @@
+/* ***************************************************************************** */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "PT Sans";
+    box-sizing: border-box;
+}
+
+/* ***************************************************************************** */
+/* ***************************** NAVBAR START ********************************* */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    background-color: black;
+    color: white;
+
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li img {
+    width: 30%;
+    height: 50%;
+}
+
+/* ***************************** NAVBAR END ********************************* */
+/* ***************************** BUTTONS START ********************************* */
+.lang {
+    font-size: 16px;
+    align-content: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    padding: 5px 15px;
+    margin-right: 10px;
+    transition: 0.1s ease-in;
+}
+
+.lang:hover {
+    background-color: white;
+    color: black;
+    font-weight: 500;
+    transition: 0.1s ease-in;
+}
+
+.signIn {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 900;
+    border: none;
+    align-items: center;
+    transition: 0.1s ease-in;
+    padding: 5px 15px 5px 15px;
+
+}
+
+.signIn:hover {
+    background-color: rgb(190, 0, 0);
+    transition: 0.1s ease-in;
+}
+
+/* ***************************** BUTTONS END ********************************* */
+/* ***************************** SECTION/MAIN CONTAINER START ************************** */
+.sections-container {
+
+    display: grid;
+    height: 100px;
+    width: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "section1"
+        "section2"
+        "section3"
+        "section4"
+        "section5"
+        "section6";
+}
+
+/* ***************************** SECTION/MAIN CONTAINER END ************************** */
+
+/****************************** SECTION 1 START ********************************/
+.section1 {
+    background: url(./assets/bg-image.jpg);
+    color: black;
+    grid-area: section1;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.main-heading {
+    display: inline-flex;
+    width: 800px;
+    color: white;
+    line-height: 100%;
+    font-size: 4.8rem;
+    font-weight: 900;
+    /* border: 1px solid greenyellow; */
+    /* justify-content: center; */
+    text-align: center;
+    margin: 10px;
+}
+
+.lower-heading {
+    /* border: 1px solid greenyellow; */
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
+    margin: 10px;
+}
+
+.more-lower-heading {
+    /* margin: 100px; */
+    color: white;
+    font-size: 1.3rem;
+    /* border: 1px solid greenyellow; */
+    font-weight: 200;
+    margin: 10px;
+}
+
+.search-container-div {
+    /* border: 1px solid greenyellow; */
+    display: flex;
+    width: 45%;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.search {
+    width: 60%;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent
+}
+
+.search-button {
+
+    background-color: red;
+    color: white;
+    font-size: 1.8rem;
+    /* padding: 10px 40px 10px 40px; */
+    width: 35%;
+    height: 60px;
+    font-weight: 900;
+    border: none;
+    transition: 0.1s ease-in;
+
+}
+
+.search-button:hover {
+    background-color: rgb(190, 0, 0);
+    transition: 0.1s ease-in;
+}
+
+/****************************** SECTION 1 END ********************************/
+.section2 {
+    background-color: firebrick;
+    grid-area: section2;
+}
+
+.section3 {
+    background-color: hotpink;
+    grid-area: section3;
+}
+
+.section4 {
+    background-color: saddlebrown;
+    grid-area: section4;
+}
+
+.section5 {
+    background-color: red;
+    grid-area: section5;
+}
+
+.section6 {
+    background-color: salmon;
+    grid-area: section6;
+}

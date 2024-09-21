@@ -1,0 +1,260 @@
+
+@media screen and  (max-width:1024px) {
+    .section1 {
+        height: 520px;
+        padding-top: 10%;    
+    }
+
+    .main-heading {
+        justify-content: center;
+        width: 85%;
+        font-size: 3rem;
+        margin: 5px;
+    }
+
+    .lower-heading {
+        font-size: 1.3rem;
+    }
+
+    .more-lower-heading {
+        font-size: 1.3rem;
+        width: 95%;
+        text-align: center;
+    }
+
+    .search-container-div {
+        display: flex;
+        width: 60%;
+
+    }
+
+    .search {
+        width: 60%;
+        margin: 0.5%;
+        height: 50px;
+    }
+
+    .search-button {
+        font-size: 1.7rem;
+        text-align: center;
+        height: 50px;
+        width: 35%;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+    .section1 {
+        height: 520px;
+        padding-top: 10%;
+    }
+
+    .main-heading {
+        width: 85%;
+        font-size: 3rem;
+        margin: 5px;
+    }
+
+    .lower-heading {
+        font-size: 1.3rem;
+    }
+
+    .more-lower-heading {
+        font-size: 1.3rem;
+        width: 95%;
+        text-align: center;
+    }
+
+    .search-container-div {
+        display: flex;
+        width: 60%;
+
+    }
+
+    .search {
+        width: 60%;
+        margin: 0.5%;
+        height: 50px;
+    }
+
+    .search-button {
+        font-size: 1.3rem;
+        text-align: center;
+        height: 50px;
+        width: 35%;
+
+    }
+}
+
+@media screen and (max-width:650px) {
+    .section1 {
+        height: 520px;
+        padding-top: 12%;
+    }
+
+    .main-heading {
+        width: 85%;
+        font-size: 2.7rem;
+        margin: 5px;
+    }
+
+    .lower-heading {
+        font-size: 1.3rem;
+    }
+
+    .more-lower-heading {
+        font-size: 1.3rem;
+        width: 95%;
+        text-align: center;
+    }
+
+    .search-container-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search {
+        width: 60%;
+        margin: 2%;
+        height: 50px;
+    }
+
+    .search-button {
+        font-size: 1.3rem;
+        text-align: center;
+        height: 45px;
+        width: 30%;
+
+    }
+}
+
+@media screen and (max-width:425px) {
+    .section1 {
+        height: 520px;
+        padding-top: 16%;
+    }
+
+    .main-heading {
+        width: 85%;
+        font-size: 2.5rem;
+        margin: 5px;
+    }
+
+    .lower-heading {
+        font-size: 1.1rem;
+    }
+
+    .more-lower-heading {
+        font-size: 1.1rem;
+        width: 95%;
+        text-align: center;
+    }
+
+    .search-container-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search {
+        width: 85%;
+        margin: 5%;
+        height: 50px;
+    }
+
+    .search-button {
+        font-size: 1.4rem;
+        text-align: center;
+        height: 45px;
+        width: 40%;
+
+    }
+}
+
+@media screen and (max-width:375px) {
+    .section1 {
+        height: 520px;
+        padding-top: 16%;
+    }
+
+    .main-heading {
+        width: 85%;
+        font-size: 2.4rem;
+        margin: 5px;
+    }
+
+    .lower-heading {
+        font-size: 1.1rem;
+    }
+
+    .more-lower-heading {
+        font-size: 1.1rem;
+        width: 95%;
+        text-align: center;
+    }
+
+    .search-container-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search {
+        width: 80%;
+        margin: 5%;
+        height: 40px;
+    }
+
+    .search-button {
+        font-size: 1.6rem;
+        text-align: center;
+        height: 40px;
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .section1 {
+        height: 520px;
+        padding-top: 28%;
+    }
+
+    .main-heading {
+        width: 85%;
+        font-size: 2.4rem;
+        margin: 5px;
+    }
+
+    .lower-heading {
+        font-size: 1rem;
+        margin: 5px;
+    }
+
+    .more-lower-heading {
+        font-size: 1rem;
+        margin: 6px;
+        text-align: center;
+    }
+
+    .search-container-div {
+        /* border: 1px solid greenyellow; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .search {
+        width: 80%;
+        margin: 5%;
+        height: 40px;
+    }
+
+    .search-button {
+        font-size: 1.4rem;
+        text-align: center;
+        height: 50px;
+        width: 50%;
+
+    }
+}
